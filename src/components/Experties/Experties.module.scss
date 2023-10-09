@@ -50,6 +50,29 @@
 
                     }
                 }
+
+
+                .techno{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    gap: 0.5rem;
+                    flex-wrap: wrap;
+
+                    .technopic{
+                        height: 3rem;
+                        width: 3rem;
+                        border-radius: 50%;
+                        overflow: hidden;
+                        padding: .5rem;
+
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: contain;
+                        }
+                    }
+                }
             }
         }
 

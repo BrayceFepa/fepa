@@ -25,7 +25,14 @@ const Experties = () => {
                             </div>
                             <div>
                                 <span>{exp.name}</span>
-                                <span className='secondaryText'>{exp.projects} Projects</span>
+                                <div className={css.techno}>
+                                    
+                                    {
+                                        exp.technos.map((tech, i)=> {
+                                            return <div className={css.technopic}><img src={tech} alt="tech" /></div>
+                                        })
+                                    }
+                                </div>
                             </div>
                         </motion.div>
                     })
@@ -44,11 +51,11 @@ const Experties = () => {
 
                 <div className={`flexCenter ${css.stats}`}>
                     <div className={`flexCenter ${css.stat}`}>
-                        <span className='primaryText'>285+</span>
+                        <span className='primaryText'>8+</span>
                         <span className='secondaryText'>Project Completed</span>
                     </div>
                     <div className={`flexCenter ${css.stat}`}>
-                        <span className='primaryText'>190+</span>
+                        <span className='primaryText'>45+</span>
                         <span className='secondaryText'>Happy Clients</span>
                     </div>
                 </div>

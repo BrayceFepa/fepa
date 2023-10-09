@@ -20,7 +20,7 @@ const People = () => {
       className={` innerWidth ${css.container}`}>
 
 
-        <div className={`flexCenter ${css.heading}`}>
+        <div className={`${css.heading}`}>
             <span className="primaryText">My Latest Works</span>
             <p style={{marginTop: "10px"}}>Perfect solution for digital experience</p>
          
@@ -34,7 +34,7 @@ const People = () => {
             {comments.map((comment, i) => {
               return (
                 <div className={`flexCenter ${css.comment}`} key={i}>
-                  <img src={comment.img} alt="" />
+                  <a href={comment.link}><img src={comment.img} alt="" /></a>
                 </div>
               );
             })}

@@ -7,18 +7,29 @@ export const projectExperience = [
     projects: 8,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
+    technos: [
+      "./React.png",
+      "./node.png",
+      "./laravel.png",
+      "./nextjs.png",
+      "./js.png",
+      "./php.png",
+      "./tailwind.png",
+    ],
   },
   {
     name: "Mobile App",
     projects: 1,
     icon: CiMobile1,
     bg: "#EEC048",
+    technos: ["./react-native.png"],
   },
   {
     name: "UI/UX and Graphic Design",
     projects: +50,
     icon: MdWorkspacesOutline,
     bg: "#F26440",
+    technos: ["./Figmapng.png", "./adobexd.png", "./photoshop.png"],
   },
 ];
 
@@ -60,43 +71,35 @@ export const workExp = [
 
 export const comments = [
   {
-    img: "./showCase1.png",
+    img: "./showcase-hb.png",
+    link: "https://housebooking.vercel.app/",
+  },
+
+  {
+    img: "./showcase-faby.png",
+    link: "https://faby-house-creation.vercel.app/",
   },
   {
-    img: "./showCase2.png",
+    img: "./showcase-jj.png",
+    link: "https://drive.google.com/drive/folders/1DH4sPiHKSSlPnKQeY4rEH89LGlczVsxv?usp=drive_link",
   },
   {
-    img: "./showCase3.png",
-  },
-  {
-    img: "./showCase1.png",
-  },
-  {
-    img: "./showCase2.png",
-  },
-  {
-    img: "./showCase3.png",
-  },
-  {
-    img: "./showCase1.png",
-  },
-  {
-    img: "./showCase2.png",
-  },
-  {
-    img: "./showCase3.png",
+    img: "./showcase-chipchip.png",
+    link: "#",
   },
 ];
 
 export const sliderSettings = {
   dots: true,
-  infinite: false,
+  infinite: true,
   speed: 1000,
   slidesToShow: 3,
   slidesToScroll: 1,
   initialSlide: 0,
   touchMove: true,
   useCSS: true,
+  autoplay: true, // Enable autoplay
+  autoplaySpeed: 3000,
 
   responsive: [
     {
