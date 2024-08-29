@@ -38,11 +38,13 @@ const Hero = () => {
 
         <div className={css.lowerElements}>
           <motion.div variants={fadeIn("right", "tween", 0.3, 1)} className={css.experience}>
-            <div className="primaryText">+8</div>
-            <div className="secondaryText">
+            <a href="./resume_Brayce_Fepa.pdf" className={css.cvLink}>
+              <div className="primaryText">My CV</div>
+              </a>
+            {/* <div className="secondaryText">
               <div>Projects</div>
               <div>Completed</div>
-            </div>
+            </div> */}
           </motion.div>
 
           <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certificate}>

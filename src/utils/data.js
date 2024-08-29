@@ -65,14 +65,21 @@ export const workExp = [
     tenure: "Nov 2022 - Sept 20233",
     role: "Web developer",
     detail:
-      "As  JJMALL developer, my primary role was to contribute to the design and development of both a mobile and web application as part of its operations.",
+      "As  JJMALL developer, my primary role was to contribute to the development of both a mobile and web e-commerce application, mainly With socket io integration, geolocalisation & internationalization.",
+  },
+  {
+    place: "ChipChip",
+    tenure: "Sept 2023",
+    role: "Web developer",
+    detail:
+      "My main job at ChipChip was to build their admin panel with advance feature like google api integrations or vehicle routing optimization to easily handle logistics while delivering orders.",
   },
 ];
 
 export const comments = [
   {
     img: "./showcase-hb.png",
-    link: "https://housebooking.vercel.app/",
+    link: "#",
   },
 
   {
@@ -81,7 +88,7 @@ export const comments = [
   },
   {
     img: "./showcase-jj.png",
-    link: "https://drive.google.com/drive/folders/1DH4sPiHKSSlPnKQeY4rEH89LGlczVsxv?usp=drive_link",
+    link: "#",
   },
   {
     img: "./showcase-chipchip.png",

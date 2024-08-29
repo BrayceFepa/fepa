@@ -28,13 +28,12 @@ const Footer = () => {
         <div className={css.right}>
           <div className={css.info}>
             <span className="secondaryText">Information</span>
-            <p>Makepe, montana city</p>
+            <p>Location : Yaounde</p>
           </div>
           <ul className={css.menu}>
-            <li>Services</li>
-            <li>Works</li>
-            <li>Notes</li>
-            <li>Experience</li>
+            <li>Contacts : +237 693267462 / +237 676994001</li>
+            <li>Email : braycefepa@gmail.com</li>
+            <li>Reference : Arielle Kitio Tsamo</li>
           </ul>
         </div>
       </motion.div>
